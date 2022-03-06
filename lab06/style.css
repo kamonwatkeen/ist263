@@ -1,0 +1,18 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, h2{
+    color: cornflowerblue;
+}
+h1 {
+    font-size: 2em
+}
+
+h2 {
+    font-size: 1em
+}
+
+
+.even{
+    background-color:lavender;
+}
