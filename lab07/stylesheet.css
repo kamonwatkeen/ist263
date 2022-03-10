@@ -1,0 +1,36 @@
+body{
+    background-color: #1c658c;
+    color: #d8d2cb;
+}
+a{
+    color: #d8d2cb;
+    text-decoration: none;
+    background-color:#1c658c;
+}
+a:hover{
+    color: #1c658c;
+    background-color:#d8d2cb ;
+}
+nav{
+    margin-bottom: 30px;
+}
+nav a {
+    color: #d8d2cb;
+    text-decoration: none;
+    background-color:#1c658c;
+    border-radius: 25px;
+    border: 2px solid #EEEEEE;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+}
+nav a:hover{
+    color: #1c658c;
+    background-color:#d8d2cb ;
+}
+nav a:visited{
+    color: #10172A;
+}
+h1, h2{
+    color: #EEEEEE;
+}
