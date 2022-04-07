@@ -1,0 +1,122 @@
+body{
+    background-color: #f2f2f2;
+    color: #4d4d4d;
+}
+a{
+    color: #4d4d4d;
+    text-decoration: none;
+    background-color:#f2f2f2;
+}
+a:hover{
+    color: #ffbf80;
+    background-color:#cce5ff ;
+}
+nav{
+    margin-bottom: 30px;
+    background-color: #cce5ff;
+    display: flex;
+}
+nav a{
+    background-color: #cce5ff;
+}
+nav a:hover{
+    color: #ffbf80;
+    background-color:#d8d2cb ;
+}
+nav a:visited{
+    color: #10172A;
+}
+.contact1{
+    display: flex;
+    background-color: #cce5ff;
+    border-radius: 1em;
+    flex-wrap: wrap;
+}
+.contact1 a{
+    background-color: #cce5ff ;
+    border-radius: 1em;
+}
+.p1{
+    flex: 1;
+    margin-left: 20px;
+}
+.p2{
+    flex: 1;
+    margin-top: 30px;
+}
+.p3{
+    flex: 3;
+}
+.contact2{
+    display: flex;
+    background-color: #cce5ff;
+    border-radius: 1em;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.contact2 a{
+    background-color: #cce5ff;
+    border-radius: 1em;
+}
+.p4{
+    flex: 2; order: 2;
+}
+.p5{
+    flex: 1; order: 1;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+h1, h2{
+    color: #4d4d4d;
+}
+footer p{
+    float: right;
+}
+h1{
+    text-align: center;
+}
+i{
+    font-size: 2em;
+}
+
+.skill, .flexbox2, .flextest{
+    display: flex;
+}
+.flextest{
+    flex: 2;
+}
+.skill{
+    flex: 2;
+    justify-content:space-evenly;
+    margin-top: 60px;
+    padding: 30px;
+}
+.skill i{
+    margin-left: 5px;
+}
+.other_skill{
+    background-color:cadetblue ;
+    border-radius: 1em;
+    justify-content: flex-end;
+}
+.other_skill{
+    margin-right: 100px;
+}
+.other_skill p, h2{
+    margin: 25px;
+    margin-left: 10px;
+    color: aliceblue;
+    padding-right: 70px;
+}
+@media only screen and (max-width: 600px)
+{
+    nav{
+        display: block;
+        margin: 20px;
+    }
+    nav a{
+        size: 100%;
+        display: block;
+    }
+    span{display: none;}
+}
