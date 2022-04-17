@@ -102,7 +102,7 @@ i{
 .other_skill{
     margin-right: 100px;
 }
-.other_skill p, h2{
+.other_skill p, .other_skill h2{
     margin: 25px;
     margin-left: 10px;
     color: aliceblue;
