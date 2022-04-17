@@ -95,7 +95,7 @@ i{
     margin-left: 5px;
 }
 .other_skill{
-    background-color:cadetblue ;
+    background-color:#5f9ea0 ;
     border-radius: 1em;
     justify-content: flex-end;
 }
@@ -105,7 +105,7 @@ i{
 .other_skill p, .other_skill h2{
     margin: 25px;
     margin-left: 10px;
-    color: aliceblue;
+    color: #14141f;
     padding-right: 70px;
 }
 @media only screen and (max-width: 600px)
@@ -123,7 +123,8 @@ i{
 #skip{
     position: absolute; /* absolute means take it out page flow*/
     left: -999px;
-    background-color:cornflowerblue;
+    background-color:#6495ed;
+    color:#14141f;
     padding: 5px;
 }
 #skip:focus{
