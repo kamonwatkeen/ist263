@@ -17,13 +17,14 @@ a{
 }
 #landing .button{
 	text-decoration:none;
-	border:#f0f5f5 1px solid;
+	border:#140f0e 1px solid;
+    background-color:#f0f5f5;
 	padding:10px 20px;
 	border-radius:10px;
     margin-bottom: 50px;
 }
-.button a{
-    color:#f0f5f5;
+#landing .button a{
+    color:#140f0e;
 }
 
 #nav{
@@ -93,6 +94,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+#foot .button a{
+    color: #f0f5f5;
 }
 @media only screen and (max-width:600px)
 {
