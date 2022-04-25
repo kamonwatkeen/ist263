@@ -1,0 +1,25 @@
+h1{
+    color: #668cff;
+}
+a:hover{
+    color: #ff9933;
+}/*when hover over the link change color*/
+a:visited{
+    color: #39ac73;
+}/*when user has visited a site*/
+a{
+    background-color: #cccccc;
+
+}
+body{
+    background-color: #e0e0d2;
+    background-image: url(../img/bob_leo_fire.jpg);
+    background-repeat: repeat;
+}
+p{
+    color: black; /* combo property*/
+    border: 1px solid #5c5c8a;
+    padding: 20px;/*space inside my border on the inside of the box*/
+    background-color: #cccccc;
+    width: 50%;/* width of box*/
+}

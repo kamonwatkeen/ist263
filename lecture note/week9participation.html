@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nest, .col1, .col2{
+            display: flex;
+        }
+        .nest{
+            border: 1px solid black;
+        }
+        .col1 div, .col2 div{
+            border: 1px solid black;
+        }
+        .col1{
+            justify-content: space-between;
+            display: flex;
+        }
+        .col2{
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="nest">
+        <div class="col1">
+            <div>1</div>
+            <div>2</div>
+        </div>
+        <div>3</div>
+        <div class="col2">
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+    </div>
+</body>
+</html>

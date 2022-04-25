@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+}
+#landing{
+    background-image: url(../Project6/image/Entrypage7.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#landing .button{
+	text-decoration:none;
+	border:#f0f5f5 1px solid;
+	padding:10px 20px;
+	border-radius:10px;
+    margin-bottom: 50px;
+}
+.button a{
+    color:#f0f5f5;
+}
+
+#nav{
+    background-color: #a0becb;
+    position: sticky;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 10px;
+    color: #140f0e;
+}
+.navbar li{
+    display: inline;
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon li:nth-child(3){
+    margin-right: 20px;
+}
+#Sorun, #Death, #Vrael, #Ione, #Endless, #Gameplay, #breif{
+    display:flex;
+}
+.text{
+    align-items: center;
+    text-align: center;
+}
+#breif, #Gameplay, #Vrael, #Endless{
+    color:#f0f5f5;
+    background-color: #485864;
+}
+#Sorun, #Death, #Ione{
+    background-color: #9fbecb;
+    color: #140f0e;
+}
+#breif{
+    height: 315px;
+}
+#Sorun{
+    height: 375px;
+}
+#Gameplay{
+    height: 341px;
+}
+.side{
+    color: #140f0e;
+}
+#Death, #Vrael{
+    height: 381px;
+}
+#Ione{
+    height: 440px ;
+}
+#Endless{
+    height: 398px;
+}
+#Endless .text{
+    margin-left: 200px;
+}
+#foot{
+    background-color: #2b3039;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+@media only screen and (max-width:600px)
+{
+    nav{
+        display: block;
+    }
+    nav a{
+        size: 100%;
+        display: block;
+    }
+    .icon{
+        display: none;
+    }
+    #breif .text{
+        display: block;
+    }
+    #Gameplay .text{
+        display: block;
+    }
+}
+#skip{
+    position: absolute;
+    left: -999px;
+    background-color: #9fbecb;
+    color: #140f0e;
+    padding: 5px;
+}
+#skip:focus{
+    left: 10px;
+}
