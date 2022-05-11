@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger</title>
+    <!--
+        1.Large no hamburger
+        2.Small needs hamburger
+
+        3. Large nav side by side
+        4. small nav stacks and dissapears
+        
+        JavaScript
+        5. show step nav on click
+        6. hide nav on second click
+    -->
+    <style>
+        #nav{
+            background-color: #a0becb;
+            position: sticky;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+        }
+        .navbar a{
+            text-decoration: none;
+            margin: 10px;
+            color: #140f0e;
+        }
+        .navbar li{
+            display: inline;
+        }
+        #skip{
+            position: absolute;
+            left: -999px;
+            background-color: #9fbecb;
+            color: #140f0e;
+            padding: 5px;
+            }
+        #skip:focus{
+            left: 10px;
+            }
+        #hamicon{
+            width: 40px;
+            display: none;
+        }
+        @media only screen and (max-width: 600px){
+            #hamicon {display:block}
+            #nav{display: none;}
+            .navi a{ display: block;}
+        }
+    </style>
+    <script>
+        function toggleNav () {
+            if (document.getElementById("nav").style.getPropertyValue("display") == "block") {
+                document.getElementById("nav").style.display = "none";}
+            else 
+                document.getElementById("nav").style.display = "block";
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/a345e10295.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img src="../img/Hamburger_icon.svg.png" id="hamicon" onclick="toggleNav();">
+    <nav id="nav">
+        <div class="navbar">
+            <div class="navi">
+                <a href="#breif" id="skip">Skip content</a>
+                <ul>
+                    <li><a href="../Project6/death_gambits_homepage.html">Home</a></li>
+                    <li><a href="../Project6/death_gambits_classes.html">Classes</a></li>
+                    <li><a href="../Project6/death_gambits_weapons.html">Weapons</a></li>
+                </ul>
+            </div>
+            <div class="icon">
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UCXO9wIhCVhJ5XAwu8qOgpEQ"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/Deaths_Gambit"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://store.steampowered.com/app/356650/Deaths_Gambit_Afterlife/"><i class="fa-brands fa-steam"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>

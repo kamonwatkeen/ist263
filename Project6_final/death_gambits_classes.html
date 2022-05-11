@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a345e10295.js" crossorigin="anonymous"></script>
+    <script>
+        function StatsOff(){
+            document.getElementById('vitinfo').style.display ='none';
+            document.getElementById('strinfo').style.display ='none';
+            document.getElementById('fininfo').style.display ='none';
+            document.getElementById('enduinfo').style.display ='none';
+            document.getElementById('intinfo').style.display ='none';
+            document.getElementById('hstinfo').style.display ='none';
+            document.getElementById('wilinfo').style.display ='none';
+        }
+        function VitOn(){
+            document.getElementById('vitinfo').style.display ='block';
+        }
+        function StrOn(){
+            document.getElementById('strinfo').style.display ='block';
+        }
+        function FinOn(){
+            document.getElementById('fininfo').style.display ='block';
+        }
+        function EnduOn(){
+            document.getElementById('enduinfo').style.display ='block';
+        }
+        function IntOn(){
+            document.getElementById('intinfo').style.display ='block';
+        }
+        function HstOn(){
+            document.getElementById('hstinfo').style.display ='block';
+        }
+        function WillOn(){
+            document.getElementById('wilinfo').style.display ='block';
+        }
+    </script>
+</head>
+<body>
+    <nav id="nav">
+        <div class="navbar">
+            <div class="navi">
+                <a href="#breif" id="skip">Skip content</a>
+                <ul>
+                    <li><a href="../Project6_final/death_gambits_homepage.html">Home</a></li>
+                    <li><a href="../Project6_final/death_gambits_classes.html">Classes</a></li>
+                    <li><a href="../Project6_final/death_gambits_weapons.html">Weapons</a></li>
+                </ul>
+            </div>
+            <div class="icon">
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UCXO9wIhCVhJ5XAwu8qOgpEQ"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/Deaths_Gambit"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://store.steampowered.com/app/356650/Deaths_Gambit_Afterlife/"><i class="fa-brands fa-steam"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="Stats">
+            <h1>Stats</h1>
+        </div>
+        <section id="Page2">
+            <div id="Statshow">
+                    <div id="Stats_Info">
+                        <div id="vitinfo">
+                            <h3>Vitality</h3>
+                            <p>Vitality give Sorun more maximum health and also boost healing effectiveness</p>
+                        </div>
+                        <div id="strinfo">
+                            <h3>Strength</h3>
+                            <p>Strength gives bonus damage to weapon which scale with strength. In addition, strength also give some max health
+                            </p>
+                        </div>
+                        <div id="fininfo">
+                            <h3>Finesse</h3>
+                            <p>Finesse gives bonus damage to weapon which scale with finesse. In addition, finesse also give some max health.</p>
+                        </div>
+                        <div id="enduinfo">
+                            <h3>Endurance</h3>
+                            <p>Endurance increases maximum stamina to Sorun. In addition, endurance give little max health and little of weapon damage. This stat could only be increase up to 30. </p>
+                        </div>
+                        <div id="intinfo">
+                            <h3>Intellect</h3>
+                            <p>Intellect gives bonus damage to weapon which scale with Intellect. In addition, Intellect also gives little maximum health.</p>
+                        </div>
+                        <div id="hstinfo">
+                            <h3>Haste</h3>
+                            <p>Haste increase stamina regeneration speed. In addition, haste also gives some cooldown reduction, max health, and some weapon damage. </p>
+                        </div>
+                        <div id="wilinfo">
+                            <h3>Will</h3>
+                            <p>Will cannot be increase by spending hope at the death idol. The only way to gain will is to die and to lose will you need to kill heroic boss. The amount of will you have will affect the ending of the game.</p>
+                        </div>
+                    </div>
+                    <div id="clear"></div>
+                    <div id="Statsthumbnail">
+                        <img src="../img/image2.0/stat/vit.png" alt="Vitality" id="vitthumb" onclick="StatsOff();VitOn();">
+                        <img src="../img/image2.0/stat/str.png" alt="Strength" id="strthumb" onclick="StatsOff();StrOn();">
+                        <img src="../img/image2.0/stat/fin.png" alt="Finesse" id="finthumb" onclick="StatsOff();FinOn();">
+                        <img src="../img/image2.0/stat/end.png" alt="Endurance" id="enduthumb" onclick="StatsOff();EnduOn();">
+                        <img src="../img/image2.0/stat/int.png" alt="Intellect" id="intthumb" onclick="StatsOff();IntOn();">
+                        <img src="../img/image2.0/stat/hst.png" alt="Haste" id="hstthumb" onclick="StatsOff();HstOn();">
+                        <img src="../img/image2.0/stat/will.png" alt="Will" id="willthumb" onclick="StatsOff();WillOn();">
+                    </div>
+                </div>
+                <section id="Classes">
+                    <h3>Classes</h3>
+                    <div id="StatsIntro">
+                        <p>
+                            After being resurrect by Death. You will able to choose a class from seven classes available. Each class start with different type of equipment, stats, and style of game play. You will be able to pick a sub-class after processing through the game.
+                        </p>
+                    </div>
+                </section>
+                <section id="Soldier">
+                    <img src="../img/image2.0/class/soldier.png" alt="Soldier">
+                    <div class="ctext">
+                        <h3>Soldier</h3>
+                        <p>“Trained by the military of Vados. Good all-round fighter. Blocking attacks gives you Soul Energy to use for Abilities. Longsword damage scales with Strength.”</p>
+                    </div>
+            </section>
+            <section id="Wizard">
+                    <div class="ctext">
+                        <h3>Wizard</h3>
+                        <p>“You fight with complex ranged magic. Using a healing Phoenix Feather will give you Soul Energy to use for Abilities. Tome damage scales with Intelligence.”</p>
+                    </div>
+                    <img src="../img/image2.0/class/wizard.png" alt="Wizard">
+            </section>
+            <section id="Assassin">
+                    <img src="../img/image2.0/class/assasin.png" alt="Assassin">
+                    <div class="ctext">
+                        <h3>Assassin</h3>
+                        <p>“Quick and nimble fighter that favors close range combat. Dodging attacks gives you Soul Energy to use for Abilities. Dagger damage scale with Finesse.”</p>
+                    </div>
+            </section>
+            <section id="Blood_Knight">
+                    <div class="ctext">
+                        <h3>Blood Knight</h3>
+                        <p>“Reckless warrior that rewards aggressive combat styles. You can regain health that was recently lost if you quickly retaliate with an ability.”</p>
+                    </div>
+                    <img src="../img/image2.0/class/blood_knight.png" alt="Blood_Knight">
+            </section>
+            <section id="Noble">
+                    <img src="../img/image2.0/class/noble.png" alt="Noble">
+                    <div class="ctext">
+                        <h3>Noble</h3>
+                        <p>“You worked your way up the chain of lords. An agent of royalty will visit you to sell unique items. Using items gives you Soul Energy to use for Abilities. Halberd damage scales with Strength.”</p>
+                    </div>
+            </section>
+            <section id="Sentinel">
+                    <div class="ctext">
+                        <h3>Sentinel</h3>
+                        <p>“A master of arms. You can equip any weapon and shield as long as you have half of the stats required. Parrying gives Soul Energy to use for Abilities. Greatsword damage scales with Strength.”</p>
+                    </div>
+                    <img src="../img/image2.0/class/sentinel.png" alt="Sentinel">
+            </section>
+            <section id="Acolyte-of-Death">
+                    <img src="../img/image2.0/class/acolytr_of_death.png" alt="Acolyte-of-Death">
+                    <div class="ctext">
+                        <h3>Acolyte of Death</h3>
+                        <p>“You worship death, letting you restore broken Death Idols. These can be used to rest and save. Killing enemies gives you Soul Energy for Abilities. Scythe damage scales with Finesse.”</p>
+                    </div>
+            </section>
+        </section>
+    </main>
+</body>

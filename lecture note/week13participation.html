@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week13 Participation</title>
+    <script>
+        function rightAnswer () {
+            document.getElementById("right").innerHTML = "True is correct"; document.getElementById("right").style.color = "green";
+        }
+        function wrongAnswer () {
+            document.getElementById("wrong").innerHTML = "False is incorrect";
+        }
+    </script>
+</head>
+<body id="page" onclick="">
+    <p>There are 7 days in one week</p>
+    <p id="right" onclick="rightAnswer();">True</p>
+    <p id="wrong" onclick="wrongAnswer();">False</p>
+</body>
+</html>
